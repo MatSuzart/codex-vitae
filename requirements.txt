@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────
+# Life Balance AI – Dependências
+# Instale com: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# LLM & Orchestration
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-google-genai>=2.0.0
+langgraph>=0.2.0
+
+# Vector Database (RAG)
+chromadb>=0.5.0
+
+# Agents & Multi-agent
+crewai>=0.80.0
+
+# Tools / Integrações
+requests>=2.32.0
+python-dotenv>=1.0.0
+google-api-python-client>=2.0.0   # Google Calendar
+google-auth-oauthlib>=1.0.0
+
+# Interface
+streamlit>=1.40.0
+
+# Monitoramento
+langsmith>=0.1.0
+
+# Utilitários
+pandas>=2.0.0
+python-dateutil>=2.9.0
